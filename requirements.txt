@@ -1,0 +1,10 @@
+numpy
+flask
+pymysql
+python-dotenv
+scikit-learn
+xgboost
+matplotlib
+pandas
+google-generativeai
+lightgbm

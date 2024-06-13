@@ -1,0 +1,320 @@
+Heart Veriseti
+
+test_size = 0.4
+Hyperparameter Optimization....
+########## LightGBMClassifier ##########
+precision (Before): 0.8222
+precision (After): 0.848
+LightGBMClassifier best params: {'colsample_bytree': 0.7, 'learning_rate': 0.01, 'n_estimators': 500}
+
+########## RandomForestClassifier ##########
+precision (Before): 0.8117
+precision (After): 0.8006
+RandomForestClassifier best params: {'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 100}
+
+########## SVCClassifier ##########
+precision (Before): 0.7969
+precision (After): 0.828
+SVCClassifier best params: {'C': 1, 'gamma': 'scale', 'kernel': 'linear'}
+
+########## KNearestNeighborsClassifier ##########
+precision (Before): 0.786
+precision (After): 0.8004
+KNearestNeighborsClassifier best params: {'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'uniform'}
+
+########## LogisticRegression ##########
+precision (Before): 0.815
+precision (After): 0.8212
+LogisticRegression best params: {'C': 10, 'penalty': 'l2'}
+
+test_size = 0.3
+Hyperparameter Optimization....
+########## LightGBMClassifier ##########
+precision (Before): 0.8164
+precision (After): 0.8164
+LightGBMClassifier best params: {'colsample_bytree': 0.7, 'learning_rate': 0.01, 'n_estimators': 500}
+
+########## RandomForestClassifier ##########
+precision (Before): 0.8333
+precision (After): 0.8306
+RandomForestClassifier best params: {'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 300}
+
+########## SVCClassifier ##########
+precision (Before): 0.8257
+precision (After): 0.8294
+SVCClassifier best params: {'C': 0.1, 'gamma': 'scale', 'kernel': 'linear'}
+
+########## KNearestNeighborsClassifier ##########
+precision (Before): 0.8356
+precision (After): 0.8458
+KNearestNeighborsClassifier best params: {'metric': 'manhattan', 'n_neighbors': 5, 'weights': 'uniform'}
+
+########## LogisticRegression ##########
+precision (Before): 0.8336
+precision (After): 0.8249
+LogisticRegression best params: {'C': 1, 'penalty': 'l2'}
+
+test_size = 0.2
+Hyperparameter Optimization....
+########## LightGBMClassifier ##########
+precision (Before): 0.7995
+precision (After): 0.8128
+LightGBMClassifier best params: {'colsample_bytree': 1, 'learning_rate': 0.01, 'n_estimators': 500}
+
+########## RandomForestClassifier ##########
+precision (Before): 0.8079
+precision (After): 0.798
+RandomForestClassifier best params: {'max_depth': 30, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 100}
+
+########## SVCClassifier ##########
+precision (Before): 0.7812
+precision (After): 0.8055
+SVCClassifier best params: {'C': 10, 'gamma': 'scale', 'kernel': 'linear'}
+
+########## KNearestNeighborsClassifier ##########
+precision (Before): 0.816
+precision (After): 0.816
+KNearestNeighborsClassifier best params: {'metric': 'manhattan', 'n_neighbors': 5, 'weights': 'uniform'}
+
+########## LogisticRegression ##########
+precision (Before): 0.8083
+precision (After): 0.8083
+LogisticRegression best params: {'C': 1, 'penalty': 'l2'}
+
+test_size = 0.1
+Hyperparameter Optimization....
+########## LightGBMClassifier ##########
+precision (Before): 0.8475
+precision (After): 0.832
+LightGBMClassifier best params: {'colsample_bytree': 0.7, 'learning_rate': 0.01, 'n_estimators': 400}
+
+########## RandomForestClassifier ##########
+precision (Before): 0.8261
+precision (After): 0.8349
+RandomForestClassifier best params: {'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+
+########## SVCClassifier ##########
+precision (Before): 0.8089
+precision (After): 0.8371
+SVCClassifier best params: {'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}
+
+########## KNearestNeighborsClassifier ##########
+precision (Before): 0.8284
+precision (After): 0.8293
+KNearestNeighborsClassifier best params: {'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'uniform'}
+
+########## LogisticRegression ##########
+precision (Before): 0.8198
+precision (After): 0.8211
+LogisticRegression best params: {'C': 10, 'penalty': 'l2'}
+
+LGBM Classifier seçildi. test_size = 0.2
+
+Diabetes Veriseti 
+test_size = 0.4
+LGBM - Test Size : 0.4
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93     87434
+           1       0.57      0.15      0.24     14038
+
+    accuracy                           0.87    101472
+   macro avg       0.73      0.57      0.58    101472
+weighted avg       0.84      0.87      0.83    101472
+
+XGB - Test Size : 0.4
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93     87434
+           1       0.54      0.16      0.24     14038
+
+    accuracy                           0.87    101472
+   macro avg       0.71      0.57      0.58    101472
+weighted avg       0.83      0.87      0.83    101472
+
+RF - Test Size : 0.4
+              precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92     87434
+           1       0.44      0.20      0.28     14038
+
+    accuracy                           0.85    101472
+   macro avg       0.66      0.58      0.60    101472
+weighted avg       0.82      0.85      0.83    101472
+
+LR - Test Size : 0.4
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93     87434
+           1       0.53      0.15      0.23     14038
+
+    accuracy                           0.86    101472
+   macro avg       0.70      0.56      0.58    101472
+weighted avg       0.83      0.86      0.83    101472
+
+DT - Test Size : 0.4
+              precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89     87434
+           1       0.30      0.31      0.30     14038
+
+    accuracy                           0.81    101472
+   macro avg       0.60      0.60      0.60    101472
+weighted avg       0.81      0.81      0.81    101472
+
+test_size = 0.3
+LGBM - Test Size : 0.3
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93     65605
+           1       0.56      0.15      0.24     10499
+
+    accuracy                           0.87     76104
+   macro avg       0.72      0.57      0.58     76104
+weighted avg       0.83      0.87      0.83     76104
+
+XGB - Test Size : 0.3
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93     65605
+           1       0.53      0.16      0.25     10499
+
+    accuracy                           0.86     76104
+   macro avg       0.71      0.57      0.59     76104
+weighted avg       0.83      0.86      0.83     76104
+
+RF - Test Size : 0.3
+              precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92     65605
+           1       0.44      0.21      0.28     10499
+
+    accuracy                           0.85     76104
+   macro avg       0.66      0.58      0.60     76104
+weighted avg       0.82      0.85      0.83     76104
+
+LR - Test Size : 0.3
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93     65605
+           1       0.54      0.14      0.22     10499
+
+    accuracy                           0.86     76104
+   macro avg       0.71      0.56      0.57     76104
+weighted avg       0.83      0.86      0.83     76104
+
+DT - Test Size : 0.3
+              precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89     65605
+           1       0.31      0.31      0.31     10499
+
+    accuracy                           0.81     76104
+   macro avg       0.60      0.60      0.60     76104
+weighted avg       0.81      0.81      0.81     76104
+
+test_size = 0.2
+LGBM - Test Size : 0.2
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93     43739
+           1       0.58      0.16      0.25      6997
+
+    accuracy                           0.87     50736
+   macro avg       0.73      0.57      0.59     50736
+weighted avg       0.84      0.87      0.83     50736
+
+XGB - Test Size : 0.2
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93     43739
+           1       0.55      0.17      0.26      6997
+
+    accuracy                           0.87     50736
+   macro avg       0.71      0.57      0.59     50736
+weighted avg       0.83      0.87      0.83     50736
+
+RF - Test Size : 0.2
+              precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92     43739
+           1       0.44      0.21      0.28      6997
+
+    accuracy                           0.85     50736
+   macro avg       0.66      0.58      0.60     50736
+weighted avg       0.82      0.85      0.83     50736
+
+LR - Test Size : 0.2
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93     43739
+           1       0.55      0.13      0.20      6997
+
+    accuracy                           0.87     50736
+   macro avg       0.72      0.55      0.57     50736
+weighted avg       0.83      0.87      0.83     50736
+
+DT - Test Size : 0.2
+              precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89     43739
+           1       0.31      0.30      0.30      6997
+
+    accuracy                           0.81     50736
+   macro avg       0.60      0.60      0.60     50736
+weighted avg       0.81      0.81      0.81     50736
+
+test_size = 0.1
+LGBM - Test Size : 0.4
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93     21874
+           1       0.56      0.16      0.25      3494
+
+    accuracy                           0.87     25368
+   macro avg       0.72      0.57      0.59     25368
+weighted avg       0.84      0.87      0.83     25368
+
+XGB - Test Size : 0.4
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93     21874
+           1       0.55      0.17      0.26      3494
+
+    accuracy                           0.87     25368
+   macro avg       0.72      0.57      0.59     25368
+weighted avg       0.84      0.87      0.84     25368
+
+RF - Test Size : 0.4
+              precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92     21874
+           1       0.44      0.22      0.29      3494
+
+    accuracy                           0.85     25368
+   macro avg       0.66      0.59      0.61     25368
+weighted avg       0.82      0.85      0.83     25368
+
+LR - Test Size : 0.4
+              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93     21874
+           1       0.52      0.16      0.24      3494
+
+    accuracy                           0.86     25368
+   macro avg       0.70      0.57      0.58     25368
+weighted avg       0.83      0.86      0.83     25368
+
+DT - Test Size : 0.4
+              precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89     21874
+           1       0.31      0.30      0.30      3494
+
+    accuracy                           0.81     25368
+   macro avg       0.60      0.60      0.60     25368
+weighted avg       0.81      0.81      0.81     25368
+
+LGBM test_size = 0.4 seçildi.
+
+thyroid XGBClassifier test_size = 0.2 ---> Değerler az olduğu için overfit etti.
